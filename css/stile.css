@@ -8,6 +8,7 @@ html {
     scroll-behavior: smooth;
 }
 
+/* Menu  NAV*/
 .menu{
     position: fixed;
     top: 4vh;
@@ -33,7 +34,20 @@ html {
     font-size: 30px;
     overflow: hidden;
 }
+/* Layout Modello 1,Modello 2,Modello 3 */
+#scelta-1{
+    background-color: red;
+    color: yellow;
+}
 
+#scelta-2{
+    background-color: green;
+    color: yellow;
+}
+#scelta-3{
+    background-color: yellow;
+    color: green;
+}
 .scelta{
     position: relative;
     height: 100vh;
@@ -43,6 +57,7 @@ html {
     overflow: hidden;
     
 }
+/* Posizionamento e modifica struttura dell' immagine e testo */
 .scelta img p{
     position: absolute;
     top: 50vh;
@@ -60,17 +75,4 @@ html {
     text-transform: uppercase;
     font-size: 2.5vw;
     line-height: 3vw;
-}
-#scelta-1{
-    background-color: red;
-    color: yellow;
-}
-
-#scelta-2{
-    background-color: green;
-    color: yellow;
-}
-#scelta-3{
-    background-color: yellow;
-    color: green;
 }
