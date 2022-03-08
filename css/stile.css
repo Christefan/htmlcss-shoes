@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: red;
+}
+
+.menu{
+    position: fixed;
+    top: 4vh;
+    right: 0;
+}
+.menu li{
+    
+    display: inline-block; 
+    color: rgb(0, 0, 0);
+}
+.menu a{
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    border-radius: 50%;
+    background-color: rgb(6, 253, 117);
+    margin: 0 10px;
+    font-size: 40px;
+   
+}
+/* .cerchio a{
+    display: block;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    border-radius: 50%;
+    background-color: rgb(6, 253, 117);
+    margin: 0 10px;
+    font-size: 40px;
+} */
