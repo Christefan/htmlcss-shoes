@@ -63,11 +63,11 @@ html {
     top: 50vh;
     left: 50vw;
     transform: translate(-50%, -50%);
-    display: block;
     width: 50vw;
 }
 .scelta img{
-    margin-left: 34rem;
+    display: block;
+    margin:0 auto;
 }
 
 .scelta p {
